@@ -21,21 +21,21 @@ RUN apt-get update && apt-get -yqq install \
 # install additional package...
 
 RUN pip install --no-cache-dir \
-demes==0.2.2 \
-demesdraw==0.3.0 \
-jupyterquiz==1.8 \
+demes==0.2.3 \
+demesdraw==0.4.0 \
+jupyterquiz==2.6.2 \
 matplotlib==3.5.2 \
 msprime==1.2.0 \
 nbgitpuller==1.1.0 \
-numpy==1.22.4 \
-pandas==1.3.5 \
-rpy2==3.5.2 \
-scipy==1.7.3 \
-seaborn==0.11.2 \
-tqdm==4.64.0 \
+numpy==1.24.3 \
+pandas==2.0.1 \
+rpy2==3.5.12 \
+scipy==1.10.1 \
+seaborn==0.12.2 \
+tqdm==4.65.0 \
 tsdate==0.1.5 \
-tsinfer==0.2.3 \
-tskit==0.4.1 \
+tsinfer==0.3.1 \
+tskit==0.5.5 \
 tszip==0.2.2
 
 # Relate
