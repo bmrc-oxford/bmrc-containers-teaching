@@ -2,7 +2,7 @@ FROM jupyter/r-notebook:2022-06-13
 LABEL app="Python"
 LABEL description="Statistical Genomics Summer School Thursday image"
 LABEL maintainer="Adam Huffman"
-LABEL version="0.8"
+LABEL version="0.9"
 
 # Set user and working directory
 USER root
