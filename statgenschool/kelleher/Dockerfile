@@ -32,6 +32,7 @@ pandas==2.0.1 \
 rpy2==3.5.12 \
 scipy==1.10.1 \
 seaborn==0.12.2 \
+stdpopsim==0.2.0 \
 tqdm==4.65.0 \
 tsdate==0.1.5 \
 tsinfer==0.3.1 \
